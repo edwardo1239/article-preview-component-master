@@ -1,0 +1,57 @@
+h1{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: hsl(217, 19%, 35%);
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: hsl(214, 17%, 51%);
+    line-height: 1.5rem;
+    word-spacing: 0.2rem;
+}
+
+h2{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+}
+
+h3 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: hsl(212, 23%, 69%);
+}
+
+h4 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+@media screen and (min-width: 825px){
+    h1{
+        font-size: 24px;
+    }
+
+    p{
+        line-height: 1rem;
+    }
+
+    h2{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    h3{
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
